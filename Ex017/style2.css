@@ -1,0 +1,23 @@
+
+body {
+    font: normal 16px arial, verdana, serif;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    background-color: rgb(82, 166, 245);
+    width: 25%;
+    border-radius: 5px;
+    
+}
+
+h2 {
+    text-align: left;
+    text-indent: 30px;
+    text-shadow: 2px 2px 05px rgb(136, 136, 252);
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}

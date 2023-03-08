@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    align-items: center;
+}
+
+.video {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 5px solid rgba(75, 70, 70, 0.151);
+    box-shadow: 10px 10px 10px rgba(238, 238, 238, 0.062);
+}
+
+.music {
+      
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: aliceblue;
+}

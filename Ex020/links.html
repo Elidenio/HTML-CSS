@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            /*border: solid 2px rgba(0, 0, 0, 0.158);*/
+        }
+        a:visited {
+            color: rgb(0, 146, 146);
+            /*Serve para indicar que aquele link que está no texto já foi aberto/visitado */
+        }
+        a:hover{
+            color: black;
+            font-weight: bold;
+            border: solid 2px rgba(0, 0, 0, 0.158);
+            border-radius: 5px;
+            /*Serve para mudar alguma coisa quando passa o mouse sobre o item*/
+        }
+        
+        a:active{
+            color: rgb(140, 0, 255);
+            /*Serve para mudar a cor do texto quando clicado no texto*/
+        }
+
+        a::before{
+            content: '📌';
+        }
+        a::after{
+            content: ' 🗒️';
+            color: rgb(90, 122, 122);
+        }
+
+        /*Os pseudo-classes são usados da seguinte forma "a:active", usando 2 pontos somente uma vez, já os pseudos-elemento ultilizam 2 pontos duas vezes, como no exemplo a seguir "a::afte".
+        Obs.:OS pseudos-elemento mexem no conteúdo*/
+
+        /* Seletores personalizados
+          #  = id
+          .  = class
+          :  = pseudo-classes
+          :: = pseudos-elemento
+          >  = children
+        */
+    </style>
+
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po" target="_blank">YouTube</a></li>
+        <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/" target="_blank">Site Curso em vídeo</a></li>
+    </ul>
+</body>
+</html>

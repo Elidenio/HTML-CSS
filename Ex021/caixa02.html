@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+
+        nav {
+            background-color: rgb(77, 77, 77);
+            padding: 3px;
+            
+            
+        }
+
+        nav > a {
+            justify-content: space-between;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px; 
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline crimson;
+            color: rgb(255, 0, 64);
+            cursor: progress;
+            box-shadow: 5px 5px 50px 2px rgba(255, 0, 64, 0.527);  
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 3px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.432);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+         background-color: rgba(107, 107, 107, 0.712);   
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin-top: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- "header" - Usado para criar o cabeçalho da pagina-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <!-- "Main" - Usado para criar o corpo da pagina-->
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus in, sunt nisi quam illum praesentium quis! Nihil ea amet commodi molestias explicabo labore quasi ab odit numquam dolor. Inventore, sit.</p>
+                <aside>
+                    <p>Francisco Elidenio Bezerra da Silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- "footer" - Usado para criar o rodapé da pagina-->
+    <footer>
+    <P>Desenvolvido por min ©</P>
+    </footer>
+
+</body>
+</html>

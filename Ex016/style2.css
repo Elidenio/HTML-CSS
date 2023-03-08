@@ -1,0 +1,27 @@
+* {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to left, #53DFEE, #0CD4EB, #09A6B8, #4A686B);
+
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(240, 255, 255); 
+    font-size: 40pt;
+    margin: 10px;
+    border-radius: 5px;
+    height: 60px;
+    max-width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(3, 226, 255), rgb(255, 0, 0));
+    cursor: pointer;
+}
+

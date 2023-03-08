@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'indian';
+    src: url(fontes/indiansteeds.ttf) format(truetype), url(indiansteeds3D.ttf);
+
+     /*
+        Tipo de format()
+        - opentype (otf)
+        - truetype (tff)
+        -embedded-opentype
+        -truetype-aat (Apple Advanced Typography)
+        -svg
+    */ 
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-family: indian;
+}

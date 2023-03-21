@@ -25,8 +25,28 @@
             left: 50%;
             top: 50%;
 
-            transform: translate(-50%, -50%)
+            transform: translate(-50%, -50%) 
 
+        }
+        details {
+            margin-top: 3px;
+            background-color: purple;
+            transition-duration: 0.5s;
+            border-bottom: 2px solid black;
+            border-radius: 10px;
+        }
+        summary {
+            text-align: center;
+            list-style-type: '🔹 ';
+            cursor: pointer;  
+            justify-content: center;
+            background-color: rgb(238, 255, 0);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        details  > p {
+            color: white;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
     </style>
 
@@ -37,5 +57,10 @@
 
         </article>
     </section>
+
+    <details>
+        <summary>Teste</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae tempora nesciunt saepe laborum at sed quo, assumenda magnam totam molestiae porro fuga eligendi sapiente, et soluta laboriosam provident, doloribus temporibus!</p>
+    </details>
 </body>
 </html>

@@ -78,6 +78,17 @@ section.imagem > p {
    border-radius: 5px;
 }
 
+.selecao {
+    display: inline-block;
+    padding: 0px 25px 0px 25px;
+    backdrop-filter: blur(15px); 
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 5px;
+    font-family: var(--fonte3);
+ }
+
 footer {
     background-color: black;
     color: white;

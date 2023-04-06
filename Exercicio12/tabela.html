@@ -14,7 +14,7 @@
             border-collapse: collapse;
             width: 300px;
         }
-        td {
+        td, th {
             border: 1px solid black;
             padding: 5px;
             text-align: center;
@@ -85,7 +85,50 @@
             <tr>
                 <td colspan="4">M</td>
             </tr>
+        </table>        
     </div>
-    </table>
+    <div>
+        <h2> Tabela 3</h2>
+        <table>
+            <thead>
+                <th>Área</th>
+                <th>Disciplinas</th>
+                 <!--<th>Notas</th>-->
+                <th>Notas 1</th>
+                <th>Nota 2</th>
+                <th>Média</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3">Exatas</th>
+                    <td>Matematica</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Quimica</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="4">Média exatas</th>
+                <td>0</td>
+            </tfoot>
+        </table>
+        <table>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

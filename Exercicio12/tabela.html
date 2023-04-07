@@ -12,7 +12,7 @@
 
         table {
             border-collapse: collapse;
-            width: 300px;
+            width: 350px;
         }
         td, th {
             border: 1px solid black;
@@ -22,6 +22,10 @@
 
         .tabela2 {
             margin-top: 20px;
+        }
+        tfoot th {
+            background-color: gray;
+            text-align: left;
         }
 
     </style>
@@ -89,14 +93,19 @@
     </div>
     <div>
         <h2> Tabela 3</h2>
-        <table>
+        <table class="tabela3">
             <thead>
-                <th>Área</th>
-                <th>Disciplinas</th>
-                 <!--<th>Notas</th>-->
-                <th>Notas 1</th>
-                <th>Nota 2</th>
-                <th>Média</th>
+                <tr>
+                    <th rowspan="2">Área</th>
+                    <th rowspan="2">Disciplinas</th>
+                     <!--<th>Notas</th>-->
+                    <th colspan="2">Notas</th>
+                    <th rowspan="2">Média</th>
+                </tr>
+                <tr>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -124,10 +133,27 @@
                 <td>0</td>
             </tfoot>
         </table>
+
         <table>
             <tbody>
-                
+                <tr>
+                    <th rowspan="2">Humanas</th>
+                    <td>História</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
             </tbody>
+            <tfoot>
+                <th colspan="4">Média exatas</th>
+                <td>0</td>
+            </tfoot>
         </table>
     </div>
 </body>

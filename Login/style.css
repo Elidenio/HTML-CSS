@@ -112,31 +112,45 @@ body {
 
 }
 
-header {
+/*header {
     display: flex;
     justify-content: end;
-}
+    backdrop-filter: blur(16px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.274);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);
+
+
+}*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    backdrop-filter: blur(16px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.274);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);
+}    
 
 .relogio {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 5px;
+    justify-content: end;
+    gap: 2px;
     height: 80px;
     width: 320px;
     /*backdrop-filter: blur(16px);*/
     border-radius: 10px;
     /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.363);*/
-    margin: 0px 10px 0px 0px;
+    margin-right: 5px;
 }
 
 .relogio div {
-    height: 60px;
-    width: 90px;
+    height: 50px;
+    width: 80px;
     background-color: rgba(0, 0, 0, 0.438);
     display: flex;
     flex-direction: column;
-    border-radius: 50px;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
     color: white;
@@ -149,3 +163,30 @@ header {
     font-weight: bold;
 }
 
+.menu {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+.menu ul {
+    display: flex;
+}
+
+
+.menu li {
+    margin-right: 1.2em;
+    list-style: none;
+    font-size: 20px;    
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: rgb(211, 211, 211);
+}

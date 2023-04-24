@@ -68,7 +68,7 @@ body {
 }
 
 .box-login input:focus {
-    border: 2px solid rgba(255, 255, 255, 0.7);
+    border: 3px solid rgba(255, 255, 255, 0.7);
     cursor: pointer;
 }
 

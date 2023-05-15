@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 04</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        legend {
+            font-size: 1.3em;
+            background-color: rgba(0, 0, 0, 0.479);
+            border-radius: 5px;
+            color: white;
+        }
+        .fd2 {
+            margin-top: 15px;
+            border: 2px solid rgba(0, 0, 0, 0.479);
+            border-radius: 5px;
+            background-color: rgb(197, 197, 197);
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend class="lg1">Dados pessoais</legend>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" placeholder="Digite um e-mail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" pattern="\(\d{2}\)\d{4,5}-\d{4}"required>
+            </p>
+            <!--Estudar mais sobre RegEx-->
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset class="fd2">
+            <legend class="lg2">Dados pessoais 2</legend>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" placeholder="Digite um e-mail" required>
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" pattern="\(\d{2}\)\d{4,5}-\d{4}"required>
+            </p>
+            <!--Estudar mais sobre RegEx-->
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
